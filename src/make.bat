@@ -1,0 +1,1 @@
+pyinstaller medit.py --onefile --windowed --icon=icon.ico --clean	--name "medit" --version-file version.txt

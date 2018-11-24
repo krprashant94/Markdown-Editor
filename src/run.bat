@@ -1,0 +1,2 @@
+python medit.py
+pause
