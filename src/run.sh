@@ -1,3 +1,3 @@
-conda activate ML
+source activate ML
 python medit.py
 pause

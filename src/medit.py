@@ -16,21 +16,15 @@ class SplaceScreen(QtWidgets.QSplashScreen):
     def __init__(self):
         super(SplaceScreen, self).__init__()
         uic.loadUi('ui/splace.ui', self)
-        pixmap = QPixmap('ui/logo.png')
-        pixmap = pixmap.scaled(128,128)
-        self.label.setPixmap(pixmap)
         self.move(500, 200)
         self.show()
-
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = SplaceScreen()
-    for i in range(1, 11):
-        window.progressBar.setValue(10*i)
-        time.sleep(0.1)
+    for i in range(1, 101):
+        window.progressBar.setValue(i)
+        time.sleep(0.01)
     window.close()
-
     edit_app = editor.MainApp()
-    
     sys.exit(app.exec_())
