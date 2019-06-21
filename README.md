@@ -2,7 +2,9 @@
 
 A easy and simple GUI editor for markdown text. It can edit and run the markdown and .rst file format. 
 
-![Editor](editor.png) | ![Run](run.png) | ![Instant Run](instant run.png)
+Editor | Run | Instant Run
+:-------------------------:|:-------------------------:|:-------------------------:
+![](editor.png) | ![](run.png) | ![](instant_run.png)
 
 ### Prerequisites
 
